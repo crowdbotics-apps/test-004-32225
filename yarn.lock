@@ -952,6 +952,11 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@modules/privacy-policy@file:./modules/privacy-policy":
+  version "1.0.1"
+  dependencies:
+    react-native-render-html "^5.1.0"
+
 "@modules/social-login@file:./modules/social-login":
   version "1.0.0"
   dependencies:
