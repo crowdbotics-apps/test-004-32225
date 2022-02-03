@@ -12,6 +12,7 @@
     "web-build": "react-app-rewired build && mkdir -p backend/web_build && cp -R build/* backend/web_build"
   },
   "dependencies": {
+    "@modules/onboarding": "file:./modules/onboarding/",
     "@modules/payments": "file:./modules/payments",
     "@modules/privacy-policy": "file:./modules/privacy-policy",
     "@modules/push-notifications": "file:./modules/push-notifications/",
